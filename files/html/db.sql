@@ -1,0 +1,10 @@
+CREATE DATABASE ctf;
+USE ctf;
+CREATE TABLE `Users`(
+	`username` VARCHAR(100) NOT NULL,
+	`password` VARCHAR(100) NOT NULL,
+	`id` INT UNSIGNED AUTO_INCREMENT,
+	PRIMARY KEY ( `id`)
+	)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO Users(username,password) VALUES ('Admin','dmpJlsg2MbFiie8IIF2aSC9fish2UoFuQJHHE5qQcnA6iwIvbH');
